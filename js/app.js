@@ -5,7 +5,7 @@ userEmail = prompt('Inserisci la tua Email');
 // - dichiaro un array che contiene la lista di email
 const emailsList = ['giacomo@gmail.com', 'francesco@gmail.com', 'gianluca@gmail.com', 'pina@gmail.com', 'nicola@hotmail.it'];
 // console.log(emailList)
-
+// - dichiaro una variabile per ricordarmi se ho trovato l'email dell'utente
 let emailFound = false;
 
 // - controllo tutti gli elementi dell'array 
