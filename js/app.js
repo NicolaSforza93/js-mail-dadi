@@ -3,7 +3,7 @@ let userEmail;
 userEmail = prompt('Inserisci la tua Email');
 // console.log(userEmail)
 // - dichiaro un array che contiene la lista di email
-const emailsList = ['giacomo@gmail.com', 'francesco@gmail.com', 'gianluca@gmail.com', 'pina@gmail.com', 'nicola@hotmail.it'];
+const emailsList = ['giacomo@gmail.com', 'francesco@gmail.com', 'gianluca@gmail.com', 'pina@gmail.com', 'nicola@hotmail.it', 'rosangela@gmail.com'];
 // console.log(emailList)
 // - dichiaro una variabile per ricordarmi se ho trovato l'email dell'utente
 let emailFound = false;
@@ -18,11 +18,7 @@ for (let i = 0; i < emailsList.length; i++) {
     if (userEmail === currentEmail) {
         emailFound = true;
 //     - stampo email trovata
-        // console.log('trovata email');
-    } else {
-//   - altrimenti stampo email non trovata
-        // console.log('email non trovata');
-    }
+    } 
 }
 
 if (emailFound === true) {
